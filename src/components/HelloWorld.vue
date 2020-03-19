@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>website coming soon</p>
+    <p>Website coming soon!</p>
+    <p>Stay in touch via contact[at]dogstorian.com</p>
   </div>
 </template>
 
