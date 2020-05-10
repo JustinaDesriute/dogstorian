@@ -1,17 +1,18 @@
 <template>
   <div id="app">
+    <router-view></router-view>
+    <Navigation></Navigation>
     <img alt="Vue logo" src="./assets/paw.png">
-    <HelloWorld msg="Welcome to Dogstorian"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navigation from './components/Navigation'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'Navigation': Navigation 
   }
 }
 </script>
