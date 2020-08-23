@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/paw.png">
     <HelloWorld msg="Welcome to Dogstorian"/>
+    <img alt="Vue logo" class="landing-page-image" src="./assets/vinni.jpg">
   </div>
 </template>
 
@@ -24,5 +24,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+}
+
+.landing-page-image {
+  height: 80vh;
 }
 </style>
