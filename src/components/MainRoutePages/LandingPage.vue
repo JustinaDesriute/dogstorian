@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h1>Landing Page</h1>
-    <p>Here is some information. This is the home page</p>
+  <div class="content-wrapper">
+    <h1>Welcome to Dogstorian</h1>
   </div>
 </template>
 
@@ -11,5 +10,13 @@ export default {
 }
 </script>
 <style>
+
+  .content-wrapper {
+    width: 100%;
+  }
+
+  .content-wrapper > h1 {
+    color: white;
+  }
 
 </style>

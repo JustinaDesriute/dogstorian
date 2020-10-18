@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="navigation-wrapper">
     <nav>
       <router-link v-for="routes in links" 
       v-bind:key="routes.id"
@@ -10,9 +10,31 @@
 </template>
 
 <style> 
-  .spacing { 
-    Margin-right: 10px; 
-  } 
+
+  .navigation-wrapper {
+    height: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+  }
+
+  nav > a:hover {
+    color: #000033;
+  }
+
+  nav > a:focus {
+    color: #000033;
+  }
+
 </style>
 
 <script>
@@ -33,8 +55,8 @@ export default {
         },
         {
           id: 2,
-          text: 'Episodes',
-          page:'/episodes'
+          text: 'Podcast',
+          page:'/podcast'
         },
         {
           id: 3,

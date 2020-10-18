@@ -31,8 +31,8 @@ export const router = new Router({
       component: ArticlesPage 
     },
     { 
-      path: '/episodes', 
-      name: 'episodes', 
+      path: '/podcast', 
+      name: 'podcast', 
       component: EpisodesPage 
     },
     { 

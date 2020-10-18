@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content-wrapper">
     <h1>Store Page</h1>
     <p>Here is some information. This is the store page</p>
   </div>
@@ -11,4 +11,13 @@ export default {
 }
 </script>
 <style>
+
+  .content-wrapper {
+    width: 100%;
+  }
+
+  .content-wrapper > h1 {
+    color: #000033;
+  }
+
 </style>
