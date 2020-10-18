@@ -4,7 +4,7 @@ import LandingPage from './components/MainRoutePages/LandingPage'
 import AboutPage from './components/MainRoutePages/AboutPage'
 import ArticlesPage from './components/MainRoutePages/ArticlesPage'
 import EpisodesPage from './components/MainRoutePages/EpisodesPage'
-import ShopPage from './components/MainRoutePages/ShopPage'
+import StorePage from './components/MainRoutePages/StorePage'
 import SupportPage from './components/MainRoutePages/SupportPage'
 
 Vue.use(Router)
@@ -13,36 +13,36 @@ export const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'LandingPage',
+      name: 'home',
     },
     { 
-      path: '/landingpage', 
-      name: 'LandingPage', 
+      path: '/home', 
+      name: 'home', 
       component: LandingPage 
     },
     { 
-      path: '/aboutpage', 
-      name: 'AboutPage', 
+      path: '/about', 
+      name: 'about', 
       component: AboutPage 
     },
     { 
-      path: '/articlespage', 
-      name: 'ArticlesPage', 
+      path: '/blog', 
+      name: 'blog', 
       component: ArticlesPage 
     },
     { 
-      path: '/episodespage', 
-      name: 'EpisodesPage', 
+      path: '/episodes', 
+      name: 'episodes', 
       component: EpisodesPage 
     },
     { 
-      path: '/shoppage', 
-      name: 'ShopPage', 
-      component: ShopPage 
+      path: '/store', 
+      name: 'store', 
+      component: StorePage 
     },
     { 
-      path: '/supportpage', 
-      name: 'SupportPage', 
+      path: '/support', 
+      name: 'support', 
       component: SupportPage 
     },
   ]

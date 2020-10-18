@@ -24,32 +24,32 @@ export default {
         {
           id: 0,
           text: 'Home',
-          page:'/LandingPage'
+          page:'/home'
         },
         {
           id: 1,
           text: 'About',
-          page:'/AboutPage'
+          page:'/about'
         },
         {
           id: 2,
           text: 'Episodes',
-          page:'/EpisodesPage'
+          page:'/episodes'
         },
         {
           id: 3,
-          text: 'Articles',
-          page:'/ArticlesPage'
+          text: 'Blog',
+          page:'/blog'
         },
         {
           id: 4,
-          text: 'Shop',
-          page:'/ShopPage'
+          text: 'Store',
+          page:'/store'
         },
         {
           id: 5,
           text: 'Support',
-          page:'/SupportPage'
+          page:'/support'
         }
       ]
     }

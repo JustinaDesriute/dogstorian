@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Episoded page</h1>
-    <p>Here is some information. This is the home page</p>
+    <h1>Episodes page</h1>
+    <p>Here is some information. This is the episodes page</p>
   </div>
 </template>
 
