@@ -15,8 +15,4 @@ export default {
     width: 100%;
   }
 
-  .content-wrapper > h1 {
-    color: #000033;
-  }
-
 </style>

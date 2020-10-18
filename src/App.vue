@@ -24,7 +24,7 @@ export default {
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #9e4200;
+  background-color: #e5ceb7;
   margin: 0;
 }
 
@@ -40,9 +40,10 @@ body {
 
 .footer {
   bottom: 0;
-  border-top: 1px solid white;
-  color: white;
+  color: 	#FFFACD;
   position: fixed;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 </style>

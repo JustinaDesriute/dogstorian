@@ -1,6 +1,8 @@
 <template>
   <div class="footer">
-    <p>this is the footer</p>
+    <p>Contact</p>
+    <p>Copyright</p>
+    <p>Terms and conditions</p>
   </div>
 </template>
 
@@ -10,4 +12,10 @@ export default {
 }
 </script>
 <style>
+
+  p {
+    padding: 5px 20px;
+    font-weight: bold;
+  }
+
 </style>
